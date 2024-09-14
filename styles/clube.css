@@ -1,0 +1,46 @@
+.clube {
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    height: 65vh;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.clube__conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em 0;
+
+}
+
+.clube__imagem {
+    width: 50%;
+
+}
+
+.clube__titulo {
+    color: var(--cor-titulo-principal);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.clube__texto {
+    font-size: 0.75em;
+    color: var(--cor-subtitulo-principal);
+    line-height: 1.5em;
+}
+
+.clube__botoes {
+    margin: 2em;
+}
+
+.clube__btn {
+    width: 50%;
+    padding: 0.5em 4em;
+    border-radius: 45px;
+    background-color: var(--cor-secundaria);
+    text-decoration: none;
+    color: var(--cor-titulo-principal);
+    font-weight: 300;
+}
