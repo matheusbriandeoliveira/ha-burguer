@@ -1,0 +1,29 @@
+.rodape {
+    background-color: var(--cor-principal);
+    padding: 2em 1.9em;
+
+}
+
+
+.rodape__logo {
+    margin-bottom: 1em;
+
+}
+
+hr {
+    margin-bottom: 1em;
+}
+
+.lista-rodape {
+    gap: 1em;
+}
+
+.lista-rodape__link {
+    text-decoration: none;
+    color: var(--cor-titulo-principal);
+    font-size: 0.88em;
+}
+
+.lista-rodape__link:hover {
+    color: var(--cor-secundaria);
+}

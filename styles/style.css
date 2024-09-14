@@ -3,6 +3,8 @@
 @import url(/styles/header.css);
 @import url(/styles/banner.css);
 @import url(/styles/clube.css);
+@import url(/styles/desconto.css);
+@import url(/styles/footer.css);
 
 :root {
     --cor-background: #FFCC39;

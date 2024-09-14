@@ -1,0 +1,37 @@
+.desconto {
+    padding: 4em 1em;
+}
+
+.desconto__imagem {
+    width: 50%;
+    margin: 3em 0;
+}
+
+.desconto__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em 0;
+}
+
+.desconto__titulo {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.titulo__destaque {
+    color: var(--cor-secundaria);
+    font-weight: 800;
+}
+
+.desconto__texto {
+    color: var(--cor-menu);
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.desconto__botoes {
+    width: 40%;
+}
+
