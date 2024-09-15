@@ -81,6 +81,39 @@
         width: 30%;
     }
 
+}
 
+@media screen and (min-width: 1728px) {
+    .desconto {
+        justify-content: center;
+        padding: 15em 8em;
+        align-items: center;
+    }
 
+    .desconto__imagem {
+        width: auto;
+    }
+
+    .desconto__container-logo {
+        text-align: center;
+        align-items: normal;
+        width: 70%;
+        margin-bottom: 5em;
+
+    }
+
+    .desconto__titulo {
+        font-size: 3.25em;
+        margin-bottom: 1em;
+    }
+
+    .desconto__texto {
+        font-size: 1.5em;
+        width: 70%;
+    }
+
+    .desconto__botoes {
+        margin: 0 0.5em;
+        cursor: pointer;
+    }
 }

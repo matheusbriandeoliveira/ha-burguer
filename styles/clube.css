@@ -100,3 +100,34 @@
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+    .clube {
+        padding: 8em;
+        justify-content: center;
+        
+
+    }
+
+    .clube__imagem {
+        width: auto;
+    }
+
+    .clube__conteudo {
+        width: 50%;
+    }
+
+    .clube__titulo {
+        font-size: 3.25em;
+    }
+
+    .clube__texto {
+        font-size: 1.5em;
+        width: 70%;
+        padding: 0;
+    }
+
+    .clube__btn {
+        font-size: 1.5em;
+    }
+}

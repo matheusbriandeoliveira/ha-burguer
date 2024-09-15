@@ -17,6 +17,7 @@
 .banner__imagem {
     width: 40%;
 
+
 }
 
 .banner__conteudo {
@@ -47,11 +48,13 @@
 
     .banner_imagem-direita {
         width: 55%;
+
     }
 
     .banner__imagem {
         width: 70%;
         margin-left: 0;
+
 
     }
 
@@ -67,6 +70,27 @@
     .banner__texto {
         font-size: 0.88em;
         width: auto;
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .banner {
+        margin-bottom: 8em;
+    }
+
+    .banner__texto {
+        font-size: 1.5em;
+    }
+
+    .banner_imagem-direita {
+        width: 80%;
+    }
+
+    .banner__imagem {
+        width: 60%;
+        margin-bottom: 1em;
 
     }
 }
