@@ -1,14 +1,11 @@
-.estilo__container {
+.clube {
+    background-color: var(--cor-principal);
+    padding: 4em 1.9em;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
 
-.clube {
-    background-color: var(--cor-principal);
-    padding: 4em 1.9em;
 }
 
 .clube__conteudo {
@@ -22,7 +19,6 @@
 
 .clube__imagem {
     width: 50%;
-
 }
 
 .clube__titulo {
@@ -38,7 +34,7 @@
     font-size: 0.75em;
     color: var(--cor-subtitulo-principal);
     line-height: 1.5em;
-   
+
 
 }
 
@@ -54,8 +50,53 @@
     text-decoration: none;
     color: var(--cor-titulo-principal);
     font-weight: 300;
+
 }
 
 .clube__btn:hover {
     background-color: var(--cor-background);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .clube {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 4em 3em;
+
+    }
+
+    .clube__imagem {
+        width: 30%;
+        margin: 0 3em;
+    }
+
+    .clube__conteudo {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        text-align: left;
+        padding: 4.5em 1em;
+
+    }
+
+    .clube__titulo {
+        font-size: 2.25em;
+    }
+
+    .clube__texto {
+        font-size: 1em;
+        display: flex;
+        text-align: left;
+        width: 95%;
+    }
+
+    .clube__botoes {
+        margin: 2em 0;
+    }
+
+    .clube__btn {
+        font-size: 1.13em;
+    }
+
 }

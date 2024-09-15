@@ -48,3 +48,30 @@
 .opcoes__link-destaque:hover {
     color: var(--cor-principal);
 }
+
+.invisivel {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho {
+        padding: 1em 3em;
+    }
+
+    .opcoes {
+        padding: 0em;
+    }
+
+    .opcoes__link {
+        font-size: 1em;
+        margin: 0 2em;
+    }
+
+    .responsi {
+        display: block;
+    }
+
+
+
+}

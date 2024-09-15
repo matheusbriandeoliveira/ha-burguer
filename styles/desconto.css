@@ -1,10 +1,18 @@
 .desconto {
     padding: 4em 1em;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .desconto__imagem {
     width: 50%;
     margin: 3em 0;
+}
+
+.desconto__logo {
+    margin-bottom: 1.5em;
+
 }
 
 .desconto__conteudo {
@@ -32,6 +40,47 @@
 }
 
 .desconto__botoes {
-    width: 40%;
+    width: 35%;
 }
 
+@media screen and (min-width: 1024px) {
+    .desconto {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 4em 3em;
+    }
+
+    .desconto__container {
+        text-align: left;
+
+    }
+
+    .desconto__container-logo {
+        text-align: center;
+
+    }
+
+    .desconto__imagem {
+        margin-left: 0;
+    }
+
+    .desconto__conteudo {
+        text-align: left;
+        align-items: normal;
+    }
+
+    .desconto__titulo {
+        font-size: 2.25em;
+    }
+
+    .desconto__texto {
+        font-size: 1em;
+    }
+
+    .desconto__botoes {
+        width: 30%;
+    }
+
+
+
+}

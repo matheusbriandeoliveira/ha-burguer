@@ -5,6 +5,15 @@
 }
 
 
+
+.rodape__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em 0;
+}
+
 .rodape__logo {
     margin-bottom: 1em;
 
@@ -14,9 +23,7 @@ hr {
     margin-bottom: 1em;
 }
 
-.lista-rodape {
-    gap: 1em;
-}
+
 
 .lista-rodape__link {
     text-decoration: none;
@@ -26,4 +33,21 @@ hr {
 
 .lista-rodape__link:hover {
     color: var(--cor-secundaria);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        padding: 5em 1.9em;
+
+    }
+
+    .rodape__container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .lista-rodape__link {
+        margin: 0 2em;
+    }
 }
