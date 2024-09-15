@@ -12,7 +12,8 @@ O **Hã? Burguer** é um site para uma hamburgueria fictícia, criado com foco e
 
 ## Metodologias
 
-Este projeto foi construído com a metodologia **mobile-first**, começando pelo layout otimizado para dispositivos móveis e, em seguida, adaptando-o para telas maiores, garantindo flexibilidade e usabilidade em qualquer tamanho de tela.
+Este projeto foi construído com a metodologia **mobile-first**, começando pelo layout otimizado para dispositivos móveis, em seguida, adaptando-o para telas maiores, garantindo flexibilidade e usabilidade em qualquer tamanho de tela.
+
 
 ## 🚀 Tecnologias e Abordagens Utilizadas
 
@@ -24,7 +25,8 @@ Este projeto foi construído com a metodologia **mobile-first**, começando pelo
 
 - Media Queries: Implementação de media queries para ajustar o layout conforme diferentes resoluções de tela, garantindo que o site mantenha sua funcionalidade e estética em qualquer dispositivo.
 
-Deploy: O site foi publicado para permitir acesso online, proporcionando uma experiência completa e acessível a potenciais recrutadores.
+- Deploy: O site foi publicado para permitir acesso online, proporcionando uma experiência completa e acessível a potenciais recrutadores.
+  
 
 ## 🔨 Funcionalidades Implementadas
 
